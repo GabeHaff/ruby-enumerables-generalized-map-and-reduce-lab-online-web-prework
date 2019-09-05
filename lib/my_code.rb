@@ -19,7 +19,7 @@ reduce(source_array, start = nil)
   end
 
    while counter < source_array.length
-    total = yield(total, source_array[x])
+    total = yield(total, source_array[counter])
     counter += 1
   end
   total
